@@ -1,6 +1,46 @@
 {
 Console.WriteLine("My name is M.Abdul Monim");
 Console.WriteLine("roll no. 24-st-055");
+ 
+double num1, num2, quotient;
+
+       
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToDouble(Console.ReadLine());
+
+        
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToDouble(Console.ReadLine());
+
+       
+        if (num2 != 0)
+        {
+          
+            quotient = num1 / num2;
+
+          
+            Console.WriteLine("The quotient of {0} and {1} is: {2}", num1, num2, quotient);
+        }
+        else
+        {
+           
+            Console.WriteLine("Error! Division by zero is not allowed.");
+
+ int num1, num2, product;
+
+       
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+
+      
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+
+       
+        product = num1 * num2;
+
+      
+        Console.WriteLine("The product of {0} and {1} is: {2}", num1, num2, product); 
    int num1, num2, difference;
 
         Console.Write("Enter the first number: ");
