@@ -1,2 +1,19 @@
+{
 Console.WriteLine("My name is M.Abdul Monim");
-Console.WriteLine("roll no. 24-st-055"):
+Console.WriteLine("roll no. 24-st-055");
+ int num1, num2, product;
+
+       
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+
+      
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+
+       
+        product = num1 * num2;
+
+      
+        Console.WriteLine("The product of {0} and {1} is: {2}", num1, num2, product);
+}
