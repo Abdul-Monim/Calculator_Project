@@ -68,8 +68,10 @@ Console.WriteLine("roll no. 24-st-055");
         Console.Write("Enter the second number: ");
         num2 = Convert.ToInt32(Console.ReadLine());
 
-     
+  
+        sum = num1 + num2;//bye
         sum = num1 + num2;//hey
+
 
       
         Console.WriteLine("The sum of {0} and {1} is: {2}", num1, num2, sum);
