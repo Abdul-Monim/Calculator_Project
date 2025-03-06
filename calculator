@@ -14,5 +14,5 @@ Console.WriteLine("roll no. 24-st-055");
         difference = num1 - num2;
 
      
-        Console.WriteLine("The difference between {0} and {1} is: {2}", num1, nu
+        Console.WriteLine("The difference between {0} and {1} is: {2}", num1, num2, difference);
 }
